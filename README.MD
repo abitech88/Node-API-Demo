@@ -16,6 +16,30 @@ The required elements for this stack are:
 
 In addition to these, any tools, frameworks or libraries can be used as you see fit.
 
+### Request Format
+
+Request data will be formatted as follows:
+```
+{
+    "address": {
+        "street": "7835 Bayberry RD",
+        "city": "Jacksonville",
+        "zip": "32256",
+        "state": "FL"
+    },
+    "items": [
+        {
+            "id": 1,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "quantity": 5
+        }
+    ]
+}
+```
+
 ### Requirements
 
 1. For any address in FL, a tax rate of 7% should be added to the total.
